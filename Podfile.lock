@@ -1,0 +1,50 @@
+PODS:
+  - DataStoreKit (3.0.5)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - ReachabilitySwift (4.2.1)
+  - SideMenu (5.0.1)
+  - SwiftLoader (0.2.5)
+
+DEPENDENCIES:
+  - DataStoreKit (from `http://github.com/poolmyride/DataStoreKit.git`, tag `3.0.5`)
+  - GoogleMaps
+  - GooglePlaces
+  - ReachabilitySwift
+  - SideMenu
+  - SwiftLoader
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - GooglePlaces
+    - ReachabilitySwift
+    - SideMenu
+    - SwiftLoader
+
+EXTERNAL SOURCES:
+  DataStoreKit:
+    :git: http://github.com/poolmyride/DataStoreKit.git
+    :tag: 3.0.5
+
+CHECKOUT OPTIONS:
+  DataStoreKit:
+    :git: http://github.com/poolmyride/DataStoreKit.git
+    :tag: 3.0.5
+
+SPEC CHECKSUMS:
+  DataStoreKit: 048f43a0dfaea747fa798b87e97613f1bf1657d2
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  ReachabilitySwift: 35720ffea59c1c76d15f885be77fd33e33985427
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
+  SwiftLoader: 12d7a6f661f5e9a2c9a72003e7dd6162f4ff0cc4
+
+PODFILE CHECKSUM: 07ec2abf69ef91ae6ab95d174ff3d8b0266eda2f
+
+COCOAPODS: 1.5.3
